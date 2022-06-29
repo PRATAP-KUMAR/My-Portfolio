@@ -1,3 +1,9 @@
+.wrapper {
+  padding: 40px;
+  border: 1px solid red;
+  width: 380px;
+}
+
 .social-media {
   display: flex;
   justify-content: space-around;
@@ -5,7 +11,7 @@
 
 .toolbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   	align-items: center;
   text-align: center;
   
@@ -42,8 +48,7 @@ flex-grow: 0;
 }
 
 .content {
-width: 327px;
-height: 146px;
+
 
 /* Body / 2 */
 
@@ -79,5 +84,20 @@ line-height: 24px;
 color: #7F8CFF;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  //border: 1px solid green;
+  width: 36px;
+  cursor: pointer;
+}
+.line {
+  border-bottom: 3px solid black;
+  margin-bottom: 5px
+}
+.bg {
+  background: url(images/header-shapes-mobile.png) left 100px no-repeat;
+  height: 300px;
+}
 
 
