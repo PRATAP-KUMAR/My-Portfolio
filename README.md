@@ -1,6 +1,6 @@
-# Hello World
+# My Portfolio
 
-My Portfolio
+Creating my first Portfolio on the website.
 
 ## Built With
 
