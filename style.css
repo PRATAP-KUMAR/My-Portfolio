@@ -66,16 +66,15 @@ body {
 }
 
 .connect {
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #7F8CFF;
-flex: none;
-order: 0;
-flex-grow: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .social-media {
