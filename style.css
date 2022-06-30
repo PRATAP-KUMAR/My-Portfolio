@@ -1,25 +1,45 @@
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
+.bg {
+  background: url(images/header-shapes-mobile.png) 80px 100px no-repeat;
+  height: auto;
+}
+
 .wrapper {
   padding: 40px;
   border: 1px solid red;
-  width: 380px;
-}
-
-.social-media {
-  display: flex;
-  justify-content: space-around;
 }
 
 .toolbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
+}
+
+.mylogo {
+  width: 76px;
+  height: 20px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: #6070FF;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  width: 36px;
+  cursor: pointer;
+}
+
+.line {
+  border-bottom: 3px solid black;
+  margin-bottom: 5px
 }
 
 .myheader {
@@ -46,28 +66,26 @@
 }
 
 .connect {
-  width: auto;
-  height: 24px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7F8CFF;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
-.hamburger {
+.social-media {
   display: flex;
-  flex-direction: column;
-  width: 36px;
-  cursor: pointer;
+  justify-content: space-around;
 }
-.line {
-  border-bottom: 3px solid black;
-  margin-bottom: 5px
+
+
+@media (min-width: 400px){
+  border: 1px solid green;
 }
-.bg {
-  background: url(images/header-shapes-mobile.png) left 100px no-repeat;
-  height: 300px;
-}
+
 
