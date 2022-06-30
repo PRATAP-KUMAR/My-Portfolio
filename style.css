@@ -1,7 +1,3 @@
-body, body * {
-font-family: 'Poppins', Arial;
-}
-
 .bg {
   background: url(images/header-shapes-mobile.png) 80px 100px no-repeat;
   height: auto;
@@ -21,7 +17,6 @@ font-family: 'Poppins', Arial;
 .mylogo {
   width: 76px;
   height: 20px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -42,7 +37,6 @@ font-family: 'Poppins', Arial;
 }
 
 .myheader {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -56,7 +50,6 @@ font-family: 'Poppins', Arial;
 }
 
 .content {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -65,7 +58,6 @@ font-family: 'Poppins', Arial;
 }
 
 .connect {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -81,7 +73,7 @@ font-family: 'Poppins', Arial;
   justify-content: space-around;
 }
 
-@media (min-width: 400px){
+@media (min-width: 400px) {
   border: 1px solid green;
 }
 
