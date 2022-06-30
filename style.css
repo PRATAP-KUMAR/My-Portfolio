@@ -1,8 +1,9 @@
 
 body {
-  font-family: 'Arial';
+  font-family: 'Poppins';
   font-size: 16px;
 }
+
 .bg {
   background: url(images/header-shapes-mobile.png) 80px 100px no-repeat;
   height: auto;
@@ -39,7 +40,7 @@ body {
 
 .line {
   border-bottom: 3px solid black;
-  margin-bottom: 5px
+  margin-bottom: 5px;
 }
 
 .myheader {
@@ -53,7 +54,7 @@ body {
   color: #172b4d;
   flex: none;
   order: 0;
- flex-grow: 0;
+  flex-grow: 0;
 }
 
 .content {
@@ -71,7 +72,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8cff;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -82,9 +83,7 @@ body {
   justify-content: space-around;
 }
 
-
 @media (min-width: 400px){
   border: 1px solid green;
 }
-
 
