@@ -151,7 +151,7 @@ ul {
 .tags {
   color: #6070ff;
   padding: 6px;
-  border-radius: 4px 12px;
+  border-radius: 8px;
   background: #ebebff;
 }
 
@@ -173,6 +173,11 @@ ul {
 .project-button:hover button {
   color: #fff;
   background-color: #7f8cff;
+}
+
+.project-button:active button {
+  color: #fff;
+  background-color: #3347ff;
 }
 
 .about-myself {
