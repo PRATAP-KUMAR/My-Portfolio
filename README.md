@@ -1,6 +1,6 @@
 # My Portfolio
 
-Creating my first Portfolio on the website.
+Adding Middle Section(Work section and About section) to the "My Portfolio" project.
 
 ## Built With
 
@@ -9,7 +9,7 @@ Creating my first Portfolio on the website.
 
 ## Getting Started
 
-This is the "setup and mobile version skeleton" part from the My Portfolio project.
+This is about "Adding the Middle Section" to the My Portfolio project.
 
 ## Authors
 
