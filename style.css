@@ -108,7 +108,7 @@ ul {
 .project-section {
   background: #e5e5e5;
 }
- 
+
 .project-title {
   font-size: 32px;
   font-weight: 700;
@@ -124,7 +124,7 @@ ul {
 }
 
 .project-client {
-  text-transform: uppercase;   
+  text-transform: uppercase; 
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -132,7 +132,8 @@ ul {
   color: #344563;
 }
 
-.project-tech, .project-year {
+.project-tech,
+.project-year {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -152,7 +153,6 @@ ul {
   padding: 6px;
   border-radius: 4px 12px;
   background: #ebebff;
-  border-radius: 8px;
 }
 
 .project-description {
@@ -176,7 +176,7 @@ ul {
 }
 
 .about-myself {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 40px;
 }
 
