@@ -1,10 +1,23 @@
-.bg {
-  background: url(images/header-shapes-mobile.png) 80px 100px no-repeat;
-  height: auto;
+* {
+font-family: Poppins, serif;
+}
+
+@font-face {
+  font-family: Poppins, serif;
+  src: url(fonts/Poppins-Black.ttf);
 }
 
 .wrapper {
-  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.mainsection {
+  padding: 30px;
+  background: url(images/header-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 310px 540px;
 }
 
 .header {
@@ -13,15 +26,9 @@
   align-items: center;
 }
 
-@font-face {
-  font-family: Poppins, serif;
-  src: url(fonts/Poppins-Black.ttf);
-}
-
 .mylogo {
-  width: 100px;
+  width: auto;
   height: 20px;
-  font-family: Poppins, serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -35,27 +42,16 @@
   cursor: pointer;
 }
 
-.line {
-  border: 2px solid #6070ff;
-  width: 16px;
-  margin-bottom: 4px;
-}
-
 .myheader {
-  font-family: Poppins, serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .content {
-  font-family: Poppins, serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -64,14 +60,10 @@
 }
 
 .connect {
-  font-family: Poppins, serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .connect:hover {
@@ -93,3 +85,113 @@ ul {
 @media (min-width: 400px) {
   border: none;
 }
+
+.grid-box {
+  display: grid;
+  grid-template: ;
+  border: 2px cyan;
+  padding: 40px;
+  grid-row-gap: 88px;
+}
+
+.project-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.project-heading {
+  margin-bottom: 88px;
+}
+
+.project-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #172B4D;
+}
+
+.project-meta-data {
+    display: flex;
+    align-items: center;
+    color: #7a869a;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.project-client {
+  text-transform: uppercase;   
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.project-tech, .project-year {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.project-tags {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.tags {
+  color: #6070FF;
+  padding: 6px;
+  border-radius: 4px 12px;
+  background: #EBEBFF;
+  border-radius: 8px;
+}
+
+.project-description {
+  margin-bottom: 16px;
+}
+
+.project-button button {
+  color: #396DF2;
+  font-weight: 500;
+  font-size: 17px;
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+}
+
+.project-button:hover button {
+  color: #fff;
+  background-color: #7f8cff;
+}
+
+.about-myself {
+  color: #172B4D;
+  font-size: 40px;
+}
+
+.text {
+  padding-left: 36px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.languages-frame {
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
