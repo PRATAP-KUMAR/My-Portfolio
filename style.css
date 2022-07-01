@@ -1,5 +1,6 @@
 * {
-font-family: Poppins, serif;
+  font-family: Poppins, serif;
+  margin: 0; padding: 0;
 }
 
 @font-face {
@@ -7,15 +8,18 @@ font-family: Poppins, serif;
   src: url(fonts/Poppins-Black.ttf);
 }
 
+body {
+  background: #e5e5e5;
+}
+
 .wrapper {
   background-color: #fff;
   border-radius: 10px;
-  padding: 20px;
 }
 
 .mainsection {
   padding: 30px;
-  background: url(images/header-shapes-mobile.png);
+  background: #fff url(images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: 310px 540px;
 }
@@ -64,6 +68,7 @@ font-family: Poppins, serif;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin-bottom: 24px;
 }
 
 .connect:hover {
@@ -82,28 +87,26 @@ ul {
   list-style-type: none;
 }
 
-@media (min-width: 400px) {
-  border: none;
-}
-
 .grid-box {
   display: grid;
-  grid-template: ;
-  border: 2px cyan;
   padding: 40px;
   grid-row-gap: 88px;
+  
 }
 
 .project-wrapper {
-    background-color: #fff;
-    border-radius: 10px;
+    background-color: #e5e5e5;
+  
     padding: 20px;
 }
-
-.project-heading {
-  margin-bottom: 88px;
+.project {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
 }
-
+ .project-section {
+   background: #e5e5e5;
+ }
 .project-title {
   font-size: 32px;
   font-weight: 700;
@@ -162,6 +165,7 @@ ul {
   padding: 12px;
   border: 1px solid #6070FF;
   border-radius: 8px;
+  margin-top: 20px;
 }
 
 .project-button:hover button {
@@ -172,6 +176,10 @@ ul {
 .about-myself {
   color: #172B4D;
   font-size: 40px;
+}
+
+.about {
+  padding: 20px;
 }
 
 .text {
@@ -187,6 +195,7 @@ ul {
   display: flex;
   align-items: center;
   margin-top: 48px;
+  margin-bottom: 20px;
 }
 
 .languages-list {
