@@ -143,6 +143,7 @@ ul {
 
 .project-tags {
   display: flex;
+  float: left;
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
@@ -160,6 +161,7 @@ ul {
 }
 
 .project-button button {
+  float: left;
   color: #396df2;
   font-weight: 500;
   font-size: 17px;
@@ -167,7 +169,8 @@ ul {
   padding: 12px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 80px;
+  margin-left: -200px;
 }
 
 .project-button:hover button {
