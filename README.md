@@ -1,6 +1,6 @@
 # My Portfolio
 
-Adding Middle Section(Work section and About section) to the "My Portfolio" project.
+Adding "Contact me" section to the "My Portfolio" project.
 
 ## Built With
 
