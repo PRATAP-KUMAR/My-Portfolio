@@ -290,10 +290,3 @@ ul {
   color: #fff;
   background-color: #3347ff;
 }
-
-.bottom-line {
-  display: flex;
-  justify-content: center;
-  margin-left: 40px;
-  margin-top: 60px;
-}
