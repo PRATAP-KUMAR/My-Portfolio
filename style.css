@@ -170,14 +170,17 @@ ul {
   margin-top: 20px;
 }
 
-.project-button:hover button {
-  color: #fff;
-  background-color: #7f8cff;
-}
-
-.project-button:active button {
-  color: #fff;
-  background-color: #3347ff;
+.get-in-touch button {
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 17px;
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 22px;
+  margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .get-in-touch button {
@@ -280,6 +283,16 @@ ul {
   font-size: 17px;
   color: #172b4d;
   padding: 15px 38px 0 16px;
+}
+
+.project-button:hover button {
+  color: #fff;
+  background-color: #7f8cff;
+}
+
+.project-button:active button {
+  color: #fff;
+  background-color: #3347ff;
 }
 
 .get-in-touch:hover button {
