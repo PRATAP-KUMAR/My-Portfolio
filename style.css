@@ -212,14 +212,15 @@ ul {
 }
 
 .contact-me {
-  background: #6070ff url(images/contact-form-bg.svg);
-  background-position-x: right;
+  background: #6070ff url(/images/back-shap.png);
+  background-position: top 20px left 250px;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
   border-top-left-radius: 100px;
+  margin: 5px;
 }
 
 .contact-me-text {
