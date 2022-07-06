@@ -180,6 +180,19 @@ ul {
   background-color: #3347ff;
 }
 
+.get-in-touch button {
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 17px;
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 22px;
+  margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
 .about-myself {
   color: #172b4d;
   font-size: 40px;
@@ -220,13 +233,13 @@ ul {
   align-items: center;
   margin-top: 50px;
   border-top-left-radius: 100px;
-  color: #EBEBFF;
+  color: #ebebff;
   padding: 24px;
 }
 
 .contact-me-text {
   margin-top: 103px;
-  color: #EBEBFF;
+  color: #ebebff;
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
@@ -235,7 +248,7 @@ ul {
 }
 
 .contact-me-brief {
-  color: #EBEBFF;
+  color: #ebebff;
   font-size: 20px;
   line-height: 22px;
   font-weight: 400;
@@ -266,20 +279,7 @@ ul {
   font-weight: 400;
   font-size: 17px;
   color: #172b4d;
-  padding: 15px 38px 0px 16px;
-}
-
-.get-in-touch button {
-  color: #6070FF;
-  font-weight: 500;
-  font-size: 17px;
-  background: #fff;
-  padding: 12px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  margin-top: 22px;
-  margin-left: 40px;
-  font-family: 'Poppins', sans-serif;
+  padding: 15px 38px 0 16px;
 }
 
 .get-in-touch:hover button {
