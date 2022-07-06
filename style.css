@@ -221,6 +221,7 @@ ul {
   margin-top: 50px;
   border-top-left-radius: 100px;
   color: #EBEBFF;
+  padding: 24px;
 }
 
 .contact-me-text {
@@ -246,7 +247,7 @@ ul {
 .input-field-box {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 10px;
   margin: 40px;
 }
 
@@ -257,7 +258,7 @@ ul {
   font-size: 17px;
   line-height: 24px;
   height: 24px;
-  padding: 24px;
+  padding: 10px;
 }
 
 .write-message {
@@ -289,11 +290,4 @@ ul {
 .get-in-touch:active button {
   color: #fff;
   background-color: #3347ff;
-}
-
-.bottom-line {
-  display: flex;
-  justify-content: center;
-  margin-left: 40px;
-  margin-top: 60px;
 }
