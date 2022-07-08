@@ -1,38 +1,31 @@
 * {
-  font-family: Poppins, serif;
+  font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 @font-face {
-  font-family: Poppins, serif;
+  font-family: Poppins, sans-serif;
   src: url(fonts/Poppins-Black.ttf);
 }
 
 body {
-  background: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
-.wrapper {
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-.mainsection {
-  padding: 30px;
-  background: #fff url(images/header-shapes-mobile.png);
-  background-repeat: no-repeat;
-  background-size: 310px 540px;
+.main {
+  flex-direction: column;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 4px 24px;
+  border-bottom-left-radius: 24px;
 }
 
 .mylogo {
-  width: auto;
   height: 20px;
   font-weight: 700;
   font-size: 18px;
@@ -41,10 +34,15 @@ body {
 }
 
 .nav {
-  display: flex;
-  flex-direction: column;
-  width: 36px;
   cursor: pointer;
+}
+
+.first-page {
+  background: #fff url(images/main-page-bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom-left-radius: 60px;
+  padding: 4px 12px;
 }
 
 .myheader {
@@ -54,6 +52,7 @@ body {
   display: flex;
   align-items: center;
   color: #172b4d;
+  padding: 4px 12px;
 }
 
 .content {
@@ -62,6 +61,7 @@ body {
   line-height: 24px;
   color: #344563;
   margin-bottom: 20px;
+  padding: 4px 12px;
 }
 
 .connect {
@@ -70,17 +70,20 @@ body {
   line-height: 24px;
   color: #7f8cff;
   margin-bottom: 24px;
+  padding: 4px 12px;
 }
 
 .connect:hover {
   color: #fff;
   background-color: #7f8cff;
+  padding: 4px 12px;
 }
 
 .social-media {
   display: flex;
   width: 200px;
   justify-content: space-between;
+  padding: 4px 12px;
 }
 
 ul {
@@ -88,25 +91,15 @@ ul {
   list-style-type: none;
 }
 
-.grid-box {
-  display: grid;
-  padding: 40px;
-  grid-row-gap: 88px;
-}
-
-.project-wrapper {
-  background-color: #e5e5e5;
-  padding: 20px;
+.project-section {
+  background: #e5e5e5;
 }
 
 .project {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.project-section {
-  background: #e5e5e5;
+  display: grid;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 16px;
 }
 
 .project-title {
@@ -141,6 +134,10 @@ ul {
   color: #7a869a;
 }
 
+.project-description {
+  margin-bottom: 16px;
+}
+
 .project-tags {
   display: flex;
   align-items: center;
@@ -153,10 +150,6 @@ ul {
   padding: 6px;
   border-radius: 8px;
   background: #ebebff;
-}
-
-.project-description {
-  margin-bottom: 16px;
 }
 
 .project-button button {
@@ -179,7 +172,14 @@ ul {
   border: 1px solid #6070ff;
   border-radius: 8px;
   margin-left: 40px;
-  font-family: 'Poppins', sans-serif;
+}
+
+.about-section {
+  display: grid;
+  row-gap: 12px;
+  padding: 7.125rem 1.5rem;
+  background-color: white;
+  border-top-right-radius: 80px;
 }
 
 .about-myself {
@@ -189,28 +189,22 @@ ul {
 
 .about {
   padding: 20px;
+  flex-direction: column;
 }
 
-.text {
-  padding-left: 36px;
-  font-weight: 500;
-  font-size: 20px;
-  color: #000;
-  width: 200px;
-  vertical-align: middle;
-}
-
-.languages-frame {
-  display: flex;
-  align-items: center;
-  margin-top: 48px;
-  margin-bottom: 20px;
-}
-
-.languages-list {
+.languages {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
+}
+
+.img-background: {
+  color: orange;
+  padding: 20px;
+}
+
+.skill-title {
+  display: flex;
 }
 
 .contact-me {
@@ -232,7 +226,6 @@ ul {
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
@@ -242,7 +235,6 @@ ul {
   line-height: 22px;
   font-weight: 400;
   margin: 40px;
-  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 

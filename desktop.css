@@ -1,0 +1,120 @@
+@media (min-width: 768px) {
+  .mobile-visible {
+    display: none;
+  }
+
+  .header {
+    padding: 1% 10%;
+    width: 80%;
+  }
+
+  .portfolio {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    color: #344563;
+    gap: 30px;
+    padding: 10px 12px;
+  }
+
+  .first-page {
+    padding: 20% 18%;
+    background-image: url('images/desktop-version/main-page-bg.svg')
+  }
+
+  .myheader {
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+    letter-spacing: 0.37px;
+  }
+
+  .projects-section {
+    padding: 10%;
+    gap: 142px;
+  }
+
+  .project {
+    grid-template-columns: 1fr 1fr;
+    border-radius: 24px;
+    gap: 24px;
+  }
+
+  .project-heading {
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .project:nth-child(odd) .project-image-container {
+    order: 1;
+  }
+
+  .project:nth-child(1) img {
+    content: url(images/desktop-version/1.png);
+  }
+
+  .project:nth-child(2) img {
+    content: url(images/desktop-version/2.png);
+  }
+
+  .project:nth-child(3) img {
+    content: url(images/desktop-version/3.png);
+  }
+
+  .project:nth-child(4) img {
+    content: url(images/desktop-version/4.png);
+  }
+
+  .about-section {
+    grid-template-columns: 40% 1fr;
+    padding: 10%;
+    gap: 25px;
+  }
+
+  .content {
+    font-size: 1rem;
+    line-height: 28px;
+    color: #344563;
+    width: 97%;
+  }
+
+  .languages {
+    display: flex;
+    gap: 20px;
+  }
+
+  .img-background: {
+    color: orange;
+    padding: 20px;
+  }
+
+  .skill-title {
+    display: flex;
+  }
+
+  .about-section {
+    grid-template-columns: 40% 1fr;
+    padding: 10%;
+    gap: 25px;
+  }
+
+  #first-id .content {
+    font-weight: 400;
+    font-size: 20px;
+    color: #344563;
+  }
+
+  #first-id .connect {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+  }
+
+  .project {
+    grid-template-columns: 1fr 1fr;
+    border-radius: 24px;
+    gap: 24px;
+  }
+}
