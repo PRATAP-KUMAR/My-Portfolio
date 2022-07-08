@@ -66,6 +66,16 @@
     gap: 24px;
   }
 
+  .skill-title>p {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+
+  .skill-title>img {
+    margin-right: 24px;
+  }
+
   .project:nth-child(odd) .project-image-container {
     order: 1;
   }
@@ -107,12 +117,10 @@
 
   .img-background {
     padding: 20px;
-    background-color: green;
     width: 122px;
     height: 120px;
-    background: #f7f7f9;
+    background-color: #f7f7f9;
   }
-  
 
   .skill-title {
     display: flex;
@@ -121,17 +129,7 @@
     gap: 20px;
   }
 
-  .skill-title > p {
-    margin-top: 24px;
-    margin-left: 24px;
-    margin-bottom: 24px;
-  }
-
-  .skill-title > img {
-    margin-right: 24px;
-  }
-
-   .contact-me {
+  .contact-me {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,18 +140,12 @@
     margin: 0 auto;
     margin-top: 50px;
   }
-  
+
   footer {
     background: #6070ff url(images/desktop-version/contact-form-bg.svg);
     background-position-x: right;
     background-repeat: no-repeat;
     border-top-left-radius: 100px;
-  }
-
-  .project {
-    grid-template-columns: 1fr 1fr;
-    border-radius: 24px;
-    margin-bottom: 24px;
   }
 
   .get-in-touch button {
