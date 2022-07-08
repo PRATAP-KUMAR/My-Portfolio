@@ -14,13 +14,12 @@
     align-items: center;
     gap: 24px;
     color: #344563;
-    gap: 30px;
     padding: 10px 12px;
   }
 
   .first-page {
     padding: 20% 18%;
-    background-image: url('images/desktop-version/main-page-bg.svg')
+    background-image: url('images/desktop-version/main-page-bg.svg');
   }
 
   .myheader {
@@ -42,7 +41,6 @@
   }
 
   .project-title {
-    background-color: red;
     font-size: 40px;
   }
 
@@ -54,7 +52,7 @@
   }
 
   .project-meta-data {
-    background-color: orange;
+    font-size: 24px;
     margin-top: 20px;
   }
 
@@ -103,41 +101,68 @@
 
   .languages {
     display: flex;
+    flex-direction: row;
     gap: 20px;
-    background-color: red;
   }
 
-  .img-background: {
-    color: orange;
+  .img-background {
     padding: 20px;
+    background-color: green;
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
   }
+  
 
   .skill-title {
     display: flex;
-  }
-
-  .about-section {
-    grid-template-columns: 40% 1fr;
-    padding: 10%;
-    gap: 25px;
-  }
-
-  #first-id .content {
-    font-weight: 400;
+    justify-content: space-between;
     font-size: 20px;
-    color: #344563;
+    gap: 20px;
   }
 
-  #first-id .connect {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7F8CFF;
+  .skill-title > p {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+
+  .skill-title > img {
+    margin-right: 24px;
+  }
+
+   .contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ebebff;
+    padding: 24px;
+    width: 569px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  footer {
+    background: #6070ff url(images/desktop-version/contact-form-bg.svg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
   }
 
   .project {
     grid-template-columns: 1fr 1fr;
     border-radius: 24px;
-    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .get-in-touch button {
+    color: #6070ff;
+    font-weight: 500;
+    font-size: 17px;
+    background: #fff;
+    padding: 12px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
   }
 }
