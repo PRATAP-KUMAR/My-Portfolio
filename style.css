@@ -9,6 +9,10 @@
   src: url(fonts/Poppins-Black.ttf);
 }
 
+.portfolio {
+  display: none;
+}
+
 body {
   background-color: #e5e5e5;
 }
@@ -23,6 +27,7 @@ body {
   align-items: center;
   padding: 4px 24px;
   border-bottom-left-radius: 24px;
+  background-color: #fff;
 }
 
 .mylogo {

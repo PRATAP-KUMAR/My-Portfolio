@@ -41,6 +41,28 @@
     gap: 24px;
   }
 
+  .project-title {
+    background-color: red;
+    font-size: 40px;
+  }
+
+  .project-client {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .project-meta-data {
+    background-color: orange;
+    margin-top: 20px;
+  }
+
+  .project-image-desk {
+    height: 100%;
+    width: 100%;
+  }
+
   .project-heading {
     padding: 24px;
     gap: 24px;
@@ -82,6 +104,7 @@
   .languages {
     display: flex;
     gap: 20px;
+    background-color: red;
   }
 
   .img-background: {
