@@ -13,7 +13,6 @@ body,
 
 body {
   background-color: #fff;
-  ;
 }
 
 ul {
@@ -177,16 +176,6 @@ ul {
   margin-left: 40px;
 }
 
-.project-button:hover button {
-  color: #fff;
-  background-color: #7f8cff;
-}
-
-.project-button:active button {
-  color: #fff;
-  background-color: #3347ff;
-}
-
 .about-section {
   display: grid;
   row-gap: 12px;
@@ -239,7 +228,7 @@ ul {
 .row-4 {
   display: flex;
   gap: 20px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   font-style: normal;
   font-weight: 500;
@@ -252,7 +241,7 @@ hr {
 
 .hr1 {
   border: 0;
-  border-top: 1px solid #DFE1E6;
+  border-top: 1px solid #dfe1e6;
 }
 
 .contact-me {

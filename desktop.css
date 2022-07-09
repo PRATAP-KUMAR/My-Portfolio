@@ -34,13 +34,15 @@
     width: 50%;
   }
 
-
-
   .section-2 {
     display: flex;
     gap: 20px;
     margin: 20px;
     background-color: #fff;
+  }
+
+  .rectangle {
+    padding: 60px;
   }
 
   .section-2:nth-child(odd) .rectangle {
@@ -57,9 +59,7 @@
     display: none;
   }
 
-  .rectangle {
-    padding: 60px;
-  }
+
 
   .project-title {
     font-weight: 700;
@@ -89,7 +89,7 @@
   .about-myself {
     font-weight: 700;
     font-size: 40px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .about {
@@ -115,7 +115,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     color: #253858;
     border-radius: 8px;
     font-style: normal;
@@ -126,9 +126,9 @@
     padding: 20px;
   }
 
-  .row-2 > img,
-  .row-3 > img,
-  .row-4 > img {
+  .row-2>img,
+  .row-3>img,
+  .row-4>img {
     height: 48px;
     width: 48px;
   }
@@ -139,7 +139,7 @@
 
   .hr1 {
     border: 0;
-    border-top: 1px solid #DFE1E6;
+    border-top: 1px solid #dfe1e6;
   }
 
   .languages-frame-work {
@@ -186,5 +186,4 @@
     margin: 40px;
     text-align: center;
   }
-
 }
