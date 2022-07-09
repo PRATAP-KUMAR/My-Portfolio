@@ -59,8 +59,6 @@
     display: none;
   }
 
-
-
   .project-title {
     font-weight: 700;
     font-size: 32px;
@@ -77,8 +75,6 @@
   .project-tags ul {
     margin: 0;
   }
-
-
 
   .about-section {
     display: flex;
@@ -107,8 +103,6 @@
     font-size: 15px;
   }
 
-
-
   .row-2,
   .row-3,
   .row-4 {
@@ -126,9 +120,9 @@
     padding: 20px;
   }
 
-  .row-2>img,
-  .row-3>img,
-  .row-4>img {
+  .row-2 > img,
+  .row-3 > img,
+  .row-4 > img {
     height: 48px;
     width: 48px;
   }
