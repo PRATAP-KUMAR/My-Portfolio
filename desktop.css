@@ -47,7 +47,7 @@
   }
 
   .text-area-dv {
-   padding: 0;
+    padding: 0;
   }
 
   .section-2:nth-child(odd) .rectangle {
@@ -151,9 +151,9 @@
     padding: 0;
   }
 
-  .row-2 > img,
-  .row-3 > img,
-  .row-4 > img {
+  .row-2>img,
+  .row-3>img,
+  .row-4>img {
     height: 48px;
     width: 48px;
   }
@@ -197,36 +197,36 @@
     width: 570px;
     height: 100px;
   }
-  
+
   .input-field-box {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 40px;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px;
+  }
 
-.input-field {
-  align-items: center;
-  border-radius: 8px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 24px;
-  width: 444px;
-  height: 24px;
-  padding: 10px;
-}
+  .input-field {
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    width: 444px;
+    height: 24px;
+    padding: 10px;
+  }
 
-.write-message {
-  border-radius: 8px;
-  font-weight: 400;
-  font-size: 17px;
-  color: #172b4d;
-  padding: 15px 38px 0 16px;
-  height: 170px;
-}
+  .write-message {
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #172b4d;
+    padding: 15px 38px 0 16px;
+    height: 170px;
+  }
 
-.get-in-touch button {
-  margin-left: 0;
-  margin-bottom: 80px;
-}
+  .get-in-touch button {
+    margin-left: 0;
+    margin-bottom: 80px;
+  }
 }
