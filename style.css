@@ -214,6 +214,7 @@ ul {
   justify-content: space-between;
   font-weight: 500;
   font-size: 20px;
+  padding: 18px;
 }
 
 .languages-list {
@@ -227,6 +228,8 @@ ul {
 .row-3,
 .row-4 {
   display: flex;
+  justify-content: flex-start;
+  text-align: center;
   gap: 20px;
   background: #f7f7f9;
   border-radius: 8px;
